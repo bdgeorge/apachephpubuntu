@@ -1,0 +1,13 @@
+# Configuration for librarian-puppet. For example:
+# 
+forge "http://forgeapi.puppetlabs.com"
+# 
+# mod "puppetlabs/razor"
+# mod "puppetlabs/ntp", "0.0.3"
+#
+mod "puppetlabs/apt",
+   :git => "git://github.com/puppetlabs/puppetlabs-apt.git"
+mod "stdlib",
+   :git => "git://github.com/puppetlabs/puppetlabs-stdlib.git"
+
+mod "puppetlabs/apache"
